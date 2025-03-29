@@ -1,6 +1,6 @@
 # The Showroom App
 
-<img src="public/images/logo.svg" alt="The Showroom App Logo" width="150" height="150"/>
+<img src="public/images/logo.png" alt="The Showroom App Logo" width="150" height="150"/>
 
 ## 📋 Descripción
 
