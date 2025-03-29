@@ -1,10 +1,10 @@
-# Plataforma de Conexión Marcas-Showrooms
+# The Showroom App
 
-![Banner del proyecto](public/images/og-image.jpg)
+<img src="public/images/logo.svg" alt="The Showroom App Logo" width="150" height="150"/>
 
 ## 📋 Descripción
 
-Plataforma web desarrollada con Next.js y Tailwind CSS que conecta marcas de ropa con propietarios de showrooms. La plataforma permite a las marcas encontrar espacios para exhibir sus productos y a los propietarios de showrooms monetizar sus espacios de manera eficiente.
+The Showroom App es una plataforma web desarrollada con Next.js y Tailwind CSS que conecta marcas de ropa con propietarios de showrooms. La plataforma permite a las marcas encontrar espacios para exhibir sus productos y a los propietarios de showrooms monetizar sus espacios de manera eficiente.
 
 ## ✨ Características principales
 
@@ -14,6 +14,16 @@ Plataforma web desarrollada con Next.js y Tailwind CSS que conecta marcas de rop
 - **Perfiles personalizables**: Tanto para marcas como para showrooms
 - **Casos de éxito**: Historias reales que muestran el impacto de la plataforma
 - **Blog integrado**: Tendencias, consejos y novedades del sector
+
+## 🎨 Estilo y diseño
+
+La estética de The Showroom App está inspirada en un estilo artesanal y creativo, con elementos que evocan el boceto a mano y trazos de pincel. La paleta de colores incluye:
+
+- **Verde teal (#2D5C50)**: Color principal para bordes y elementos destacados
+- **Coral (#E27863)**: Color de acento para llamadas a la acción y elementos interactivos
+- **Beige claro (#F2EFDF)**: Color de fondo que proporciona calidez y elegancia
+
+La tipografía combina fuentes manuscritas para títulos con fuentes sans-serif limpias para el cuerpo del texto, creando un equilibrio entre personalidad y legibilidad.
 
 ## 🛠️ Tecnologías
 
@@ -35,8 +45,8 @@ Plataforma web desarrollada con Next.js y Tailwind CSS que conecta marcas de rop
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/plataforma-marcas-showrooms.git
-   cd plataforma-marcas-showrooms
+   git clone https://github.com/tu-usuario/the-showroom-app.git
+   cd the-showroom-app
    ```
 
 2. Instala las dependencias:
@@ -95,6 +105,7 @@ Plataforma web desarrollada con Next.js y Tailwind CSS que conecta marcas de rop
 - ✅ Componentes de layout (Navbar, Footer)
 - ✅ Página de inicio completa con todas las secciones
 - ✅ Componentes reutilizables para la UI
+- ✅ Estética y branding adaptados a la identidad visual de The Showroom App
 
 ### En progreso
 - 🔄 Páginas interiores (detalle de showroom, marca, etc.)
@@ -124,6 +135,7 @@ Los scripts de creación de las bases de datos están incluidos en la documentac
 - **Estilos**: Tailwind CSS para todos los estilos, con clases utilitarias
 - **Importaciones**: Uso de alias `@/` para importaciones absolutas
 - **Nomenclatura**: PascalCase para componentes, camelCase para funciones
+- **Estética**: Adherencia a la paleta de colores y estilo visual definidos
 
 ## 🤝 Contribuir
 
@@ -139,6 +151,6 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.m
 
 ## 📞 Contacto
 
-Tu Nombre - [@tu_twitter](https://twitter.com/tu_twitter) - email@ejemplo.com
+The Showroom App - [@TheShowroomApp](https://twitter.com/TheShowroomApp) - info@theshowroomapp.com
 
-Link del proyecto: [https://github.com/tu-usuario/plataforma-marcas-showrooms](https://github.com/tu-usuario/plataforma-marcas-showrooms)
+Link del proyecto: [https://github.com/tu-usuario/the-showroom-app](https://github.com/tu-usuario/the-showroom-app)

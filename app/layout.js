@@ -20,23 +20,23 @@ const geistMono = Geist_Mono({
 
 // Metadatos de la aplicación
 export const metadata = {
-  title: "Conecta Marcas y Showrooms | La Plataforma Líder",
+  title: "The Showroom App | Conectando Marcas y Showrooms",
   description: "Conectamos marcas de moda con los mejores espacios para exhibir. Encuentra showrooms o marcas que potencien tu negocio.",
   keywords: ["moda", "showrooms", "marcas", "exhibición", "ropa", "networking"],
-  authors: [{ name: "Tu Empresa" }],
-  creator: "Tu Empresa",
-  metadataBase: new URL("https://tudominio.com"),
+  authors: [{ name: "The Showroom App" }],
+  creator: "The Showroom App",
+  metadataBase: new URL("https://theshowroomapp.com"),
   openGraph: {
-    title: "Conecta Marcas y Showrooms | La Plataforma Líder",
+    title: "The Showroom App | Conectando Marcas y Showrooms",
     description: "Conectamos marcas de moda con los mejores espacios para exhibir. Encuentra showrooms o marcas que potencien tu negocio.",
-    url: "https://tudominio.com",
-    siteName: "Conecta Marcas y Showrooms",
+    url: "https://theshowroomapp.com",
+    siteName: "The Showroom App",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Conecta Marcas y Showrooms",
+        alt: "The Showroom App",
       },
     ],
     locale: "es_ES",
@@ -47,7 +47,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body className="flex flex-col min-h-screen antialiased">
+      <body className="flex flex-col min-h-screen antialiased bg-brand-beige-200">
         <Navbar />
         <main className="flex-grow">
           {children}

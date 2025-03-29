@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cuadrado con bordes de estilo pincel -->
+  <path d="M5,5 L95,5 L95,95 L5,95 Z" fill="none" stroke="#2D5C50" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Percha estilo trazo de pincel -->
+  <path d="M30,30 L50,15 L70,30 M50,15 L50,60" fill="none" stroke="#E27863" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
