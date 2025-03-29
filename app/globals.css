@@ -22,5 +22,85 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+/* Enlaces y botones transiciones */
+a, button {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Estilo base para tarjetas */
+.card {
+  @apply bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 transition-all;
+}
+
+.card:hover {
+  @apply shadow-lg border-neutral-300;
+}
+
+/* Scroll suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilos de tipografía */
+h1, .h1 {
+  @apply text-4xl font-bold tracking-tight md:text-5xl;
+}
+
+h2, .h2 {
+  @apply text-3xl font-semibold tracking-tight md:text-4xl;
+}
+
+h3, .h3 {
+  @apply text-2xl font-semibold md:text-3xl;
+}
+
+h4, .h4 {
+  @apply text-xl font-semibold md:text-2xl;
+}
+
+h5, .h5 {
+  @apply text-lg font-semibold md:text-xl;
+}
+
+h6, .h6 {
+  @apply text-base font-semibold md:text-lg;
+}
+
+p {
+  @apply text-base leading-relaxed;
+}
+
+/* Estilos de botones */
+.btn {
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-md font-medium focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+.btn-primary {
+  @apply bg-primary-500 text-white hover:bg-primary-600 focus:ring-primary-500;
+}
+
+.btn-secondary {
+  @apply bg-secondary-500 text-white hover:bg-secondary-600 focus:ring-secondary-500;
+}
+
+.btn-outline {
+  @apply bg-transparent border border-neutral-300 hover:bg-neutral-100 focus:ring-neutral-500;
+}
+
+/* Contenedores */
+.container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
 }
