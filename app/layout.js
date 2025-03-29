@@ -1,10 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-// Importación de componentes de layout
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
-
 // Definición de fuentes
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -47,12 +43,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body className="flex flex-col min-h-screen antialiased bg-brand-beige-200">
-        <Navbar />
+      <body className="flex flex-col min-h-screen antialiased bg-brandBeige-200">
+        <div className="p-4 text-center font-handwritten text-2xl">
+          The Showroom App
+        </div>
         <main className="flex-grow">
           {children}
         </main>
-        <Footer />
+        <footer className="p-4 text-center text-sm">
+          © 2025 The Showroom App
+        </footer>
       </body>
     </html>
   );

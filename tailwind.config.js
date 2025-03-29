@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         // Colores primarios basados en el logo
-        'brand-teal': {
+        'brandTeal': {
           50: '#e6f0ee',
           100: '#b0d2ca',
           200: '#8abfb1',
@@ -22,7 +22,7 @@ module.exports = {
           900: '#091210',
         },
         // Color secundario basado en la percha
-        'brand-coral': {
+        'brandCoral': {
           50: '#feefed',
           100: '#fccdca',
           200: '#fabaae',
@@ -35,7 +35,7 @@ module.exports = {
           900: '#3d1e19',
         },
         // Beige para fondos y neutrales
-        'brand-beige': {
+        'brandBeige': {
           50: '#fdfdfb',
           100: '#f9f8f0',
           200: '#F2EFDF', // Color del fondo
@@ -47,51 +47,14 @@ module.exports = {
           800: '#6e6841',
           900: '#494529',
         },
-        // Mantenemos alguna neutrales para textos y bordes
-        'neutral': {
-          50: '#fafafa',
-          100: '#f5f5f5',
-          200: '#e5e5e5',
-          300: '#d4d4d4',
-          400: '#a3a3a3',
-          500: '#737373',
-          600: '#525252',
-          700: '#404040',
-          800: '#262626',
-          900: '#171717',
-        },
       },
       fontFamily: {
         sans: ['var(--font-geist-sans)', 'system-ui', 'sans-serif'],
         mono: ['var(--font-geist-mono)', 'monospace'],
         // Fuentes con estilo manuscrito para títulos, para que coincidan con el logo
         handwritten: ['Caveat', 'Indie Flower', 'cursive'],
-        heading: ['var(--font-geist-sans)', 'system-ui', 'sans-serif'],
-        body: ['var(--font-geist-sans)', 'system-ui', 'sans-serif'],
-      },
-      borderRadius: {
-        'sm': '0.125rem',
-        DEFAULT: '0.25rem',
-        'md': '0.375rem',
-        'lg': '0.5rem',
-        'xl': '0.75rem',
-        '2xl': '1rem',
-        'full': '9999px',
-      },
-      boxShadow: {
-        'sm': '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
-        DEFAULT: '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
-        'md': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
-        'lg': '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
-        'xl': '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
-        '2xl': '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
-        'inner': 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
-        'none': 'none',
-      },
-      backgroundImage: {
-        'brushstroke-pattern': "url('/images/brushstroke-pattern.svg')",
       },
     },
   },
   plugins: [],
-};
+}
